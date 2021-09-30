@@ -108,3 +108,36 @@ li {
   opacity: 1;
   visibility: visible;
 }
+
+/* Rating Slider Start */
+.angle {
+  display: flex;
+}
+.left-angle {
+  border: 2px solid #00928d;
+  color: #00928d;
+  width: 45px;
+  height: 45px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 25px;
+}
+.fa-angle-right {
+  border: 2px solid #00928d;
+  color: white;
+  background-color: #00928d;
+  width: 45px;
+  height: 45px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 25px;
+}
+/* Rating Slider End */
