@@ -151,6 +151,15 @@ li {
   left: 46%;
   top: 8px;
 }
+/* hero section end  */
+
+/* brand-section start  */
+.brand-section {
+  background: #f0f8f8;
+  border-radius: 28px;
+}
+/* brand-section end */
+
 /* Rating Slider Start */
 .angle {
   display: flex;
