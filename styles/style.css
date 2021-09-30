@@ -51,7 +51,7 @@ li {
   background: #006d77;
 }
 
-/* nav-bar */
+/* nav-bar start */
 .nav-bar {
   display: grid;
   grid-template-columns: 2fr 4fr 1fr;
@@ -108,7 +108,49 @@ li {
   opacity: 1;
   visibility: visible;
 }
+/* nav-bar end  */
 
+/* hero-section */
+.section-title {
+  color: #0a0951;
+  font-size: 60px;
+  line-height: 1.1em;
+  font-weight: 700;
+}
+.hero-section {
+  background-image: url(../images/dot-dot.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hero-svg {
+  position: absolute;
+  top: 90px;
+}
+.hero-svg img {
+  width: 250px;
+}
+.hero-feature {
+  color: #00928d;
+  font-size: 16px;
+  font-weight: 400;
+}
+.search-field {
+  background: #fff;
+  display: inline-block;
+  width: 70%;
+  padding: 10px 20px;
+  height: 60px;
+  border-radius: 30px;
+  box-shadow: 4px 9px 11px 0px rgba(202, 202, 202, 0.75);
+  outline: none;
+  position: relative;
+}
+.search-btn {
+  position: absolute;
+  left: 46%;
+  top: 8px;
+}
 /* Rating Slider Start */
 .angle {
   display: flex;
