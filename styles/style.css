@@ -125,10 +125,11 @@ li {
 }
 .hero-svg {
   position: absolute;
-  top: 90px;
+  top: 20px;
+  left: -20px;
 }
 .hero-svg img {
-  width: 250px;
+  width: 230px;
 }
 .hero-feature {
   color: #00928d;
@@ -159,6 +160,42 @@ li {
   border-radius: 28px;
 }
 /* brand-section end */
+
+/* travels-weekend-section start */
+.weekend-text .section-title {
+  font-size: 45px;
+}
+
+.weekend-svg {
+  position: absolute;
+  top: 250px;
+  right: -20px;
+  transform: rotate(180deg);
+}
+.weekend-svg img {
+  width: 150px;
+}
+
+.all-person .person {
+  margin-left: -5px;
+}
+.person img {
+  width: 50px;
+}
+.person:last-child {
+  background: #e3e3e3;
+  color: #00928d;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: 700;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* travels-weekend-section end  */
 
 /* Rating Slider Start */
 .angle {
