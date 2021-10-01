@@ -20,6 +20,8 @@
     />
     <!-- local style sheet  -->
     <link rel="stylesheet" href="styles/style.css" />
+    <!-- responsive css  -->
+    <link rel="stylesheet" href="styles/responsive.css" />
     <title>Travego - The World's Local Travel</title>
   </head>
   <body>
@@ -124,12 +126,12 @@
 
       <!-- travels-weekend-section start -->
       <section class="py-4 weekend-section relative overflow-hidden">
-        <div class="container mx-auto">
+        <div class="container px-24 mx-auto">
           <div
             class="
               grid grid-cols-1
               lg:grid-cols-2
-              gap-4
+              gap-12
               justify-center
               items-center
               px-12
@@ -137,9 +139,9 @@
             "
           >
             <div class="travelers">
-              <img class="w-10/12" src="images/couple.svg" alt="" />
+              <img class="" src="images/couple.svg" alt="" />
             </div>
-            <div class="weekend-text pr-12 my-8 lg:my-0">
+            <div class="weekend-text my-8 lg:my-0">
               <h2 class="section-title w-3/4 mb-8">
                 Take the best weekend and Enjon your Place
               </h2>
@@ -194,67 +196,69 @@
           </div>
         </div>
 
-        <div class="py-12">
-          <div class="grid gap-14 grid-cols-3 pl-28 w-11/12">
-            <div><img src="images/bus.png" alt="photo" /></div>
-            <div><img src="images/cactus.png" alt="photo" /></div>
-            <div><img src="images/river.png" alt="photo" /></div>
-          </div>
-          <div class="grid gap-20 grid-cols-3 pl-28 w-11/12">
-            <div class="ranking-card relative">
-              <h4 class="text-xl rating-h4">
-                Enjoy the thread nworld famous Beauty of Taj mohol
-              </h4>
-              <small class="text-gray-400">Agra, India</small>
-              <div class="flex justify-between">
+        <div class="container mx-auto">
+          <div class="py-12">
+            <div class="grid gap-14 grid-cols-3 pl-28 w-11/12">
+              <div><img src="images/bus.png" alt="photo" /></div>
+              <div><img src="images/cactus.png" alt="photo" /></div>
+              <div><img src="images/river.png" alt="photo" /></div>
+            </div>
+            <div class="grid gap-20 grid-cols-3 pl-28 w-11/12">
+              <div class="ranking-card relative">
+                <h4 class="text-xl rating-h4">
+                  Enjoy the thread nworld famous Beauty of Taj mohol
+                </h4>
+                <small class="text-gray-400">Agra, India</small>
+                <div class="flex justify-between">
+                  <div>
+                    <i class="fas fa-star text-yellow-500"></i>
+                    <i class="fas fa-star text-yellow-500"></i>
+                    <i class="fas fa-star text-yellow-500"></i>
+                    <i class="fas fa-star text-yellow-500"></i>
+                    <i class="far fa-star text-yellow-500"></i>
+                  </div>
+                  <div class="rounded-full py-1 px-6 border border-green-600">
+                    <p class="text-green-600 font-semibold">$677</p>
+                  </div>
+                </div>
+              </div>
+              <div class="ranking-card relative">
                 <div>
-                  <i class="fas fa-star text-yellow-500"></i>
-                  <i class="fas fa-star text-yellow-500"></i>
-                  <i class="fas fa-star text-yellow-500"></i>
-                  <i class="fas fa-star text-yellow-500"></i>
-                  <i class="far fa-star text-yellow-500"></i>
-                </div>
-                <div class="rounded-full py-1 px-6 border border-green-600">
-                  <p class="text-green-600 font-semibold">$677</p>
-                </div>
-              </div>
-            </div>
-            <div class="ranking-card relative">
-              <div>
-                <h4 class="text-xl rating-h4">
-                  We rank the 30 World's Best Places to Visit our readers
-                </h4>
-                <small class="text-gray-400">Mishor, Saudi Arabia</small>
-                <div class="flex justify-between">
-                  <div>
-                    <i class="fas fa-star text-yellow-500"></i>
-                    <i class="fas fa-star text-yellow-500"></i>
-                    <i class="fas fa-star text-yellow-500"></i>
-                    <i class="fas fa-star text-yellow-500"></i>
-                    <i class="far fa-star text-yellow-500"></i>
-                  </div>
-                  <div class="rounded-full py-1 px-6 border border-green-600">
-                    <p class="text-green-600 font-semibold">$787</p>
+                  <h4 class="text-xl rating-h4">
+                    We rank the 30 World's Best Places to Visit our readers
+                  </h4>
+                  <small class="text-gray-400">Mishor, Saudi Arabia</small>
+                  <div class="flex justify-between">
+                    <div>
+                      <i class="fas fa-star text-yellow-500"></i>
+                      <i class="fas fa-star text-yellow-500"></i>
+                      <i class="fas fa-star text-yellow-500"></i>
+                      <i class="fas fa-star text-yellow-500"></i>
+                      <i class="far fa-star text-yellow-500"></i>
+                    </div>
+                    <div class="rounded-full py-1 px-6 border border-green-600">
+                      <p class="text-green-600 font-semibold">$787</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="ranking-card relative">
-              <div>
-                <h4 class="text-xl rating-h4">
-                  South Africa's wine industry is good enough to give France
-                </h4>
-                <small class="text-gray-400">South Africa</small>
-                <div class="flex justify-between">
-                  <div>
-                    <i class="fas fa-star text-yellow-500"></i>
-                    <i class="fas fa-star text-yellow-500"></i>
-                    <i class="fas fa-star text-yellow-500"></i>
-                    <i class="fas fa-star text-yellow-500"></i>
-                    <i class="far fa-star text-yellow-500"></i>
-                  </div>
-                  <div class="rounded-full py-1 px-6 border border-green-600">
-                    <p class="text-green-600 font-semibold">$679</p>
+              <div class="ranking-card relative">
+                <div>
+                  <h4 class="text-xl rating-h4">
+                    South Africa's wine industry is good enough to give France
+                  </h4>
+                  <small class="text-gray-400">South Africa</small>
+                  <div class="flex justify-between">
+                    <div>
+                      <i class="fas fa-star text-yellow-500"></i>
+                      <i class="fas fa-star text-yellow-500"></i>
+                      <i class="fas fa-star text-yellow-500"></i>
+                      <i class="fas fa-star text-yellow-500"></i>
+                      <i class="far fa-star text-yellow-500"></i>
+                    </div>
+                    <div class="rounded-full py-1 px-6 border border-green-600">
+                      <p class="text-green-600 font-semibold">$679</p>
+                    </div>
                   </div>
                 </div>
               </div>
