@@ -198,7 +198,7 @@ li {
 /* travels-weekend-section end  */
 
 /* Rating Slider Start */
-.section{
+.section {
   background-image: url(../images/Ellipse\ 590.png);
   background-repeat: no-repeat;
   background-position-y: bottom;
@@ -206,7 +206,7 @@ li {
 .angle {
   display: flex;
 }
-.rating-h1{
+.rating-h1 {
   color: #0a0951;
 }
 .left-angle {
@@ -237,15 +237,19 @@ li {
   font-size: 25px;
 }
 
-.rating-h4{
-  color:#0A0951;
+.rating-h4 {
+  color: #0a0951;
 }
-.ranking-card{
-  background: linear-gradient(99.1deg, #FFFFFF 0.49%, rgba(255, 255, 255, 0.84) 103.28%);
-box-shadow: 11px 38px 92px rgba(0, 0, 0, 0.1);
-border-radius: 8px;
+.ranking-card {
+  background: linear-gradient(
+    99.1deg,
+    #ffffff 0.49%,
+    rgba(255, 255, 255, 0.84) 103.28%
+  );
+  box-shadow: 11px 38px 92px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
   left: 40px;
   top: -72px;
-  padding:30px;
+  padding: 30px;
 }
 /* Rating Slider End */

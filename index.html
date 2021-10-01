@@ -46,22 +46,29 @@
       </nav>
       <!-- hero section start  -->
       <section class="relative">
-        <div class="container hero-section py-14 mb-8 mx-auto">
+        <div class="container hero-section py-8 lg:py-14 lg:mb-8 mx-auto">
           <div class="hero-svg">
             <img src="./images/Ellipse.svg" alt="" />
           </div>
           <div
-            class="grid grid-cols-1 lg:grid-cols-2 items-center px-24 mx-auto"
+            class="
+              grid grid-cols-1
+              lg:grid-cols-2
+              items-center
+              px-4
+              lg:px-24
+              mx-auto
+            "
           >
-            <div class="w-4/5">
+            <div class="w-4/5 mx-auto">
               <h1 class="section-title mb-8">
                 Travel to the any corner of the world.
               </h1>
-              <p>
+              <p class="text-sm lg:text-base">
                 Treat yourself with a journey to your inner self. Visit a
                 mystique Tibet and start your spiritual adventure.
               </p>
-              <div class="flex mt-6">
+              <div class="grid grid-cols-1 gap-2 lg:flex mt-6">
                 <p class="hero-feature mr-4">
                   <span class="mr-2"><i class="fas fa-check"></i></span>
                   Make Your dreams
@@ -91,7 +98,7 @@
     <!-- header end  -->
     <main>
       <!-- brand section start  -->
-      <section class="container py-16 px-24 mx-auto">
+      <section class="container py-8 px-24 mx-auto">
         <div class="brand-section px-8 py-16">
           <div
             class="
@@ -125,34 +132,35 @@
       <!-- brand section end -->
 
       <!-- travels-weekend-section start -->
-      <section class="py-4 weekend-section relative overflow-hidden">
-        <div class="container px-24 mx-auto">
+      <section class="lg:py-4 weekend-section relative overflow-hidden">
+        <div class="container lg:px-24 mx-auto">
           <div
             class="
               grid grid-cols-1
-              lg:grid-cols-2
-              gap-12
+              lg:grid-cols-2 lg:gap-12
               justify-center
               items-center
-              px-12
+              px-4
               lg:px-0
             "
           >
             <div class="travelers">
-              <img class="" src="images/couple.svg" alt="" />
+              <img class="w-full" src="images/couple.svg" alt="" />
             </div>
-            <div class="weekend-text my-8 lg:my-0">
-              <h2 class="section-title w-3/4 mb-8">
+            <div class="weekend-text my-8 lg:my-0 text-center md:text-left">
+              <h2 class="section-title mb-8 mx-auto lg:mx-0">
                 Take the best weekend and Enjon your Place
               </h2>
-              <p class="mb-8">
+              <p class="mb-8 text-sm md:text-base">
                 Travel is the movement of people between distant geographicaly
                 locations. Travel can be done by foot, bicycle, automobile, a
                 train, boat, bus, airplane, ship or other means, with into the
                 finl or without luggage canround trip.
               </p>
 
-              <div class="all-person flex my-12">
+              <div
+                class="all-person flex justify-center lg:justify-start my-12"
+              >
                 <div class="person">
                   <img src="images/person-1.png" alt="" />
                 </div>
@@ -170,7 +178,9 @@
                 </div>
                 <div class="person"><span>4.7</span></div>
               </div>
-              <button class="travego-btn">Buy Now</button>
+              <div class="flex justify-center lg:justify-start">
+                <button class="travego-btn">Buy Now</button>
+              </div>
             </div>
           </div>
         </div>
