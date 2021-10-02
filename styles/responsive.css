@@ -1,4 +1,12 @@
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1120px) {
+  .subscirbe .search-btn {
+    left: 58%;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .subscirbe .search-btn {
+    left: 76%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -8,9 +16,24 @@
   .weekend-text .section-title {
     font-size: 28px;
   }
+  .search-btn {
+    left: 55%;
+  }
+  .subscirbe .search-btn {
+    left: 70%;
+  }
+  .subscirbe .section-title {
+    font-size: 28px;
+  }
 }
 @media screen and (max-width: 400px) {
   .section-title {
     font-size: 20px;
+  }
+  .search-btn {
+    left: 48%;
+  }
+  .subscirbe .search-btn {
+    left: 60%;
   }
 }

@@ -272,6 +272,9 @@ li {
 .subscirbe .search-field {
   box-shadow: none;
 }
+.subscirbe .search-btn {
+  left: 60%;
+}
 
 /* footer  */
 .footer-section .menu-item {
