@@ -149,8 +149,9 @@ li {
 }
 .search-btn {
   position: absolute;
-  left: 46%;
-  top: 8px;
+  left: 60%;
+  padding: 5px 10px;
+  top: 20%;
 }
 /* hero section end  */
 
@@ -255,6 +256,24 @@ li {
 /* Rating Slider End */
 
 /* footer section start  */
+
+/* newsletter-section  */
+.newsletter-section {
+  background: #00928d;
+  background-image: url(../images/wave.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.subscirbe .section-title {
+  font-size: 45px;
+  color: #fff;
+}
+.subscirbe .search-field {
+  box-shadow: none;
+}
+
+/* footer  */
 .footer-section .menu-item {
   color: #717081;
   font-weight: 400;
