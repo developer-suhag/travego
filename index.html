@@ -28,22 +28,31 @@
     <!-- header start  -->
     <header>
       <!-- navbar  -->
-      <nav class="nav-bar px-10 mx-auto py-2 container">
-        <div class="logo">
-          <a href="index.html">
-            <img src="images/logo.png" alt="" />
-          </a>
-        </div>
-        <div class="flex justify-end mr-8">
-          <a class="menu-item mr-2" href="#">Home</a>
-          <a class="menu-item mr-2" href="#">About</a>
-          <a class="menu-item mr-2" href="#">Tour Packges</a>
-          <a class="menu-item mr-2" href="#">Contact us</a>
-        </div>
-        <div class="book-btn">
-          <button class="travego-btn">Book Ticket</button>
-        </div>
-      </nav>
+      <div class="container px-4 md:px-24 mx-auto">
+        <nav class="container nav-bar px-8 py-2">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="lg:flex justify-end mr-8 menu">
+            <input class="mobile-menu-check" type="checkbox" />
+
+            <span class="mobile-menu-icon">
+              <i class="fas fa-bars"></i>
+            </span>
+            <div class="menu-link">
+              <a class="menu-item lg:mr-2" href="#">Home</a>
+              <a class="menu-item lg:mr-2" href="#">About</a>
+              <a class="menu-item lg:mr-2" href="#">Tour Packges</a>
+              <a class="menu-item lg:mr-2" href="#">Contact us</a>
+            </div>
+            <div class="book-btn">
+              <button class="travego-btn">Book Ticket</button>
+            </div>
+          </div>
+        </nav>
+      </div>
       <!-- hero section start  -->
       <section class="relative">
         <div class="container hero-section py-8 lg:py-14 lg:mb-8 mx-auto">

@@ -52,6 +52,10 @@ li {
 }
 
 /* nav-bar start */
+.mobile-menu-check,
+.mobile-menu-icon {
+  display: none;
+}
 .nav-bar {
   display: grid;
   grid-template-columns: 2fr 4fr 1fr;
