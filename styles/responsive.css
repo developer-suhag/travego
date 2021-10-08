@@ -77,6 +77,22 @@
     font-size: 28px;
   }
 }
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  .ranking-card {
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .choose-sec {
+    flex-direction: column-reverse;
+  }
+  .choose-info {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .section-title {
     font-size: 20px;
