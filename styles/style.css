@@ -57,15 +57,6 @@ li {
 
 /* nav-bar start */
 
-/* .nav-bar {
-  display: grid;
-  grid-template-columns: 2fr 4fr 1fr;
-  justify-content: center;
-  align-items: center;
-} */
-/* .menu-item:first-child {
-  color: #00928d;
-} */
 /* navbar  */
 .header {
   border-bottom: 1px solid #e2e8f0;
@@ -111,10 +102,6 @@ li {
   display: inline-block;
   padding: 5px 15px;
   position: relative;
-}
-
-.menu-item:first-child {
-  color: #00928d;
 }
 
 .menu-item::before {
@@ -347,7 +334,7 @@ li {
 .footer-section .menu-item {
   color: #717081;
   font-weight: 400;
-  padding: 0;
+  padding: 5px 0;
 }
 .footer-section .menu-item:hover {
   color: #00928d;
@@ -383,11 +370,15 @@ li {
   color: #fff;
 }
 /* footer section end */
-  /* color: #0A0951;
+/* color: #0A0951;
 } */
 
 .ranking-card {
-  background: linear-gradient(99.1deg, #FFFFFF 0.49%, rgba(255, 255, 255, 0.84) 103.28%);
+  background: linear-gradient(
+    99.1deg,
+    #ffffff 0.49%,
+    rgba(255, 255, 255, 0.84) 103.28%
+  );
   box-shadow: 11px 38px 92px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin-right: -37px;
@@ -397,7 +388,6 @@ li {
 }
 
 /* Rating Slider End */
-
 
 /* Choose Us Start */
 .not-contained-icon {
@@ -411,24 +401,23 @@ li {
 }
 
 .choose-title {
-  color: #0A0951;
+  color: #0a0951;
 }
 
 /* Choose Us End */
 
-
 /* ---------------------------- */
 /* Media Query */
 @media only screen and (max-width: 600px) {
-  .ranking-card{
+  .ranking-card {
     margin-top: 15px;
     margin-right: 0px;
-  margin-left: 0px;
+    margin-left: 0px;
   }
-  .choose-sec{
+  .choose-sec {
     flex-direction: column-reverse;
   }
-  .choose-info{
+  .choose-info {
     flex-direction: column;
   }
 }
