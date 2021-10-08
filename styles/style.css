@@ -113,6 +113,10 @@ li {
   position: relative;
 }
 
+.menu-item:first-child {
+  color: #00928d;
+}
+
 .menu-item::before {
   content: "";
   position: absolute;
@@ -379,3 +383,52 @@ li {
   color: #fff;
 }
 /* footer section end */
+  /* color: #0A0951;
+} */
+
+.ranking-card {
+  background: linear-gradient(99.1deg, #FFFFFF 0.49%, rgba(255, 255, 255, 0.84) 103.28%);
+  box-shadow: 11px 38px 92px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-right: -37px;
+  margin-left: 37px;
+  margin-top: -50px;
+  padding: 20px;
+}
+
+/* Rating Slider End */
+
+
+/* Choose Us Start */
+.not-contained-icon {
+  border: 1px solid #00928d;
+  color: #00928d;
+}
+
+.contained-icon {
+  color: white;
+  background-color: #00928d;
+}
+
+.choose-title {
+  color: #0A0951;
+}
+
+/* Choose Us End */
+
+
+/* ---------------------------- */
+/* Media Query */
+@media only screen and (max-width: 600px) {
+  .ranking-card{
+    margin-top: 15px;
+    margin-right: 0px;
+  margin-left: 0px;
+  }
+  .choose-sec{
+    flex-direction: column-reverse;
+  }
+  .choose-info{
+    flex-direction: column;
+  }
+}
