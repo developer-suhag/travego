@@ -1,0 +1,90 @@
+@media screen and (max-width: 1274px) {
+  .menu-item {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .subscirbe .search-btn {
+    left: 58%;
+  }
+}
+
+/* media  */
+@media only screen and (max-width: 1024px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #f1faee;
+    width: 100%;
+    /* height: 100vh; */
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px #0000000d;
+    z-index: 999;
+    padding: 20px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .menu-item {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  /* // Inside the Media Query. */
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .subscirbe .search-btn {
+    left: 76%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section-title {
+    font-size: 30px;
+  }
+  .weekend-text .section-title {
+    font-size: 28px;
+  }
+  .search-btn {
+    left: 55%;
+  }
+  .subscirbe .search-btn {
+    left: 70%;
+  }
+  .subscirbe .section-title {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .section-title {
+    font-size: 20px;
+  }
+  .search-btn {
+    left: 48%;
+  }
+  .subscirbe .search-btn {
+    left: 60%;
+  }
+}

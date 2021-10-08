@@ -20,46 +20,92 @@
     />
     <!-- local style sheet  -->
     <link rel="stylesheet" href="styles/style.css" />
+    <!-- responsive css  -->
+    <link rel="stylesheet" href="styles/responsive.css" />
     <title>Travego - The World's Local Travel</title>
   </head>
   <body>
     <!-- header start  -->
     <header>
-      <!-- navbar  -->
-      <nav class="nav-bar px-10 mx-auto py-2 container">
-        <div class="logo">
-          <a href="index.html">
-            <img src="images/logo.png" alt="" />
-          </a>
-        </div>
-        <div class="flex justify-end mr-8">
-          <a class="menu-item mr-2" href="#">Home</a>
-          <a class="menu-item mr-2" href="#">About</a>
-          <a class="menu-item mr-2" href="#">Tour Packges</a>
-          <a class="menu-item mr-2" href="#">Contact us</a>
-        </div>
-        <div class="book-btn">
-          <button class="travego-btn">Book Ticket</button>
-        </div>
-      </nav>
+      <!-- navbar start  -->
+      <!-- <div class="container px-4 md:px-24 mx-auto">
+        <nav class="container nav-bar px-8 py-2">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="" />
+            </a>
+          </div>
+          <div class="lg:flex justify-end mr-8 menu">
+            <div class="menu-link">
+              <a class="menu-item lg:mr-2" href="#">Home</a>
+              <a class="menu-item lg:mr-2" href="#">About</a>
+              <a class="menu-item lg:mr-2" href="#">Tour Packges</a>
+              <a class="menu-item lg:mr-2" href="#">Contact us</a>
+            </div>
+            
+          </div>
+        </nav>
+      </div> -->
+      <div class="container px-4 md:px-24 mx-auto header">
+        <nav class="navbar container nav-bar px-8 py-2">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images/logo.png" alt="" />
+            </a>
+          </div>
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="menu-item lg:mr-2"">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="menu-item lg:mr-2"">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="menu-item lg:mr-2"">Tour Packges</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="menu-item lg:mr-8"">Contact us</a>
+            </li>
+            <li>
+              <div class="book-btn mt-2 lg:mt-0">
+                <button class="travego-btn">Book Ticket</button>
+              </div>
+            </li>
+          </ul>
+          
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+      <!-- navbar end  -->
       <!-- hero section start  -->
       <section class="relative">
-        <div class="container hero-section py-14 mb-8 mx-auto">
+        <div class="container hero-section py-8 lg:py-14 lg:mb-8 mx-auto">
           <div class="hero-svg">
             <img src="./images/Ellipse.svg" alt="" />
           </div>
           <div
-            class="grid grid-cols-1 lg:grid-cols-2 items-center px-24 mx-auto"
+            class="
+              grid grid-cols-1
+              lg:grid-cols-2
+              items-center
+              px-4
+              lg:px-24
+              mx-auto
+            "
           >
-            <div class="w-4/5">
+            <div class="w-4/5 mx-auto">
               <h1 class="section-title mb-8">
                 Travel to the any corner of the world.
               </h1>
-              <p>
+              <p class="text-sm lg:text-base">
                 Treat yourself with a journey to your inner self. Visit a
                 mystique Tibet and start your spiritual adventure.
               </p>
-              <div class="flex mt-6">
+              <div class="grid grid-cols-1 gap-2 lg:flex mt-6">
                 <p class="hero-feature mr-4">
                   <span class="mr-2"><i class="fas fa-check"></i></span>
                   Make Your dreams
@@ -72,10 +118,12 @@
               <div class="search mt-12 relative">
                 <input
                   class="search-field"
-                  type="search"
+                  type="email"
                   placeholder="Eiffel Tower, New York"
                 />
-                <button class="travego-btn search-btn">Search</button>
+                <button class="travego-btn search-btn">
+                  <i class="fas fa-search"></i>
+                </button>
               </div>
             </div>
             <div class="mt-8 lg:mt-0">
@@ -89,7 +137,7 @@
     <!-- header end  -->
     <main>
       <!-- brand section start  -->
-      <section class="container py-16 px-24 mx-auto">
+      <section class="container px-4 py-4 md:py-8 md:px-24 mx-auto">
         <div class="brand-section px-8 py-16">
           <div
             class="
@@ -103,19 +151,39 @@
             "
           >
             <div class="logo">
-              <img src="images/brand-1.png" alt="" />
+              <img
+                class="w-2/4 mx-auto md:w-full"
+                src="images/brand-1.png"
+                alt=""
+              />
             </div>
             <div class="logo">
-              <img src="images/brand-2.png" alt="" />
+              <img
+                class="w-2/4 mx-auto md:w-full"
+                src="images/brand-2.png"
+                alt=""
+              />
             </div>
             <div class="logo">
-              <img src="images/brand-3.png" alt="" />
+              <img
+                class="w-2/4 mx-auto md:w-full"
+                src="images/brand-3.png"
+                alt=""
+              />
             </div>
             <div class="logo">
-              <img src="images/brand-4.png" alt="" />
+              <img
+                class="w-2/4 mx-auto md:w-full"
+                src="images/brand-4.png"
+                alt=""
+              />
             </div>
             <div class="logo">
-              <img src="images/brand-5.png" alt="" />
+              <img
+                class="w-2/4 mx-auto md:w-full"
+                src="images/brand-5.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -123,34 +191,35 @@
       <!-- brand section end -->
 
       <!-- travels-weekend-section start -->
-      <section class="py-4 weekend-section relative overflow-hidden">
-        <div class="container mx-auto">
+      <section class="lg:py-4 weekend-section relative overflow-hidden">
+        <div class="container lg:px-24 mx-auto">
           <div
             class="
               grid grid-cols-1
-              lg:grid-cols-2
-              gap-4
+              lg:grid-cols-2 lg:gap-12
               justify-center
               items-center
-              px-12
+              px-4
               lg:px-0
             "
           >
             <div class="travelers">
-              <img class="w-10/12" src="images/couple.svg" alt="" />
+              <img class="w-full" src="images/couple.svg" alt="" />
             </div>
-            <div class="weekend-text pr-12 my-8 lg:my-0">
-              <h2 class="section-title w-3/4 mb-8">
+            <div class="weekend-text my-8 lg:my-0 text-center md:text-left">
+              <h2 class="section-title mb-8 mx-auto lg:mx-0">
                 Take the best weekend and Enjon your Place
               </h2>
-              <p class="mb-8">
+              <p class="mb-8 text-sm md:text-base">
                 Travel is the movement of people between distant geographicaly
                 locations. Travel can be done by foot, bicycle, automobile, a
                 train, boat, bus, airplane, ship or other means, with into the
                 finl or without luggage canround trip.
               </p>
 
-              <div class="all-person flex my-12">
+              <div
+                class="all-person flex justify-center lg:justify-start my-12"
+              >
                 <div class="person">
                   <img src="images/person-1.png" alt="" />
                 </div>
@@ -168,7 +237,9 @@
                 </div>
                 <div class="person"><span>4.7</span></div>
               </div>
-              <button class="travego-btn">Buy Now</button>
+              <div class="flex justify-center lg:justify-start">
+                <button class="travego-btn">Buy Now</button>
+              </div>
             </div>
           </div>
         </div>
@@ -310,6 +381,159 @@
       <!-- Choose Start End -->
     </main>
 
-    <footer></footer>
+    <footer>
+      <section class="container mx-auto px-4 md:px-24 py-4">
+        <div class="newsletter-section lg:px-8 py-4 rounded-2xl">
+          <div
+            class="
+              grid grid-cols-1
+              lg:grid-cols-2 lg:gap-12
+              justify-center
+              items-center
+              px-4
+              lg:px-0
+            "
+          >
+            <div class="bus">
+              <img
+                class="w-2/4 mx-auto lg:w-full lg:mx-0"
+                src="images/family-bus.svg"
+                alt=""
+              />
+            </div>
+            <div
+              class="
+                subscirbe
+                mt-4
+                mb-4
+                lg:mt-8 lg:mb-8 lg:mb-0 lg:mt-0
+                text-center
+                lg:text-left
+              "
+            >
+              <h3 class="section-title mb-2 lg:mb-8">
+                Subscribe Newsletter & Get company News.
+              </h3>
+              <div class="search mt-4 lg:mt-12 relative">
+                <input
+                  class="search-field"
+                  type="search"
+                  placeholder="Eiffel Tower, New York"
+                />
+                <button class="travego-btn search-btn">
+                  <i class="far fa-envelope"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container mx-auto footer-section">
+        <div
+          class="
+            grid grid-cols-1
+            md:grid-cols-2
+            lg:grid-cols-4
+            gap-4
+            md:gap-8
+            px-4
+            py-4
+            md:px-24 md:py-8
+            text-center
+            md:text-left
+          "
+        >
+          <div class="footer-logo space-y-8">
+            <div class="flex justify-center md:justify-start">
+              <img src="images/logo.png" alt="" />
+            </div>
+            <p>
+              Business Number: + 1554 4435 343 3131 Doctors Drive. LA,
+              California Enquiries: Youremail here@mail.com
+            </p>
+            <div class="social-icons space-x-4">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="space-y-6">
+            <h3 class="text-2xl md:text-4xl">Tour</h3>
+            <ul class="space-y-2">
+              <li>
+                <a class="menu-item" href="#">Thailand</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">Vietnam</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">Korea</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">Mexico</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">Italy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="space-y-6">
+            <h3 class="text-2xl md:text-4xl">Support</h3>
+            <ul class="space-y-2">
+              <li>
+                <a class="menu-item" href="#">Acount</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">Legal</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">Contact</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">Affiliate Program</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="space-y-6">
+            <h3 class="text-2xl md:text-4xl">Useful Pages</h3>
+            <ul class="space-y-2">
+              <li>
+                <a class="menu-item" href="#">Deals</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">FAQs</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">Why Choose Us</a>
+              </li>
+              <li>
+                <a class="menu-item" href="#">Suscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="copy-right p-2 text-white">
+        <p class="text-center">
+          &copy; 2021 || Design & Devlop by
+          <a
+            class="developer"
+            href="https://github.com/developer-suhag"
+            target="_blank"
+            >Suhag</a
+          >
+          &
+          <a class="developer" href="https://github.com/sanjidaKabirSrity"
+            >Sanjida</a
+          >.
+        </p>
+      </section>
+    </footer>
+    <!-- javascript  -->
+    <script src="js/app.js"></script>
   </body>
 </html>
