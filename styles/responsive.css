@@ -3,80 +3,56 @@
     font-size: 16px;
     line-height: 20px;
   }
-  .travego-btn {
-    padding: 10px 12px;
-  }
 }
 @media screen and (max-width: 1120px) {
   .subscirbe .search-btn {
     left: 58%;
   }
 }
-@media screen and (max-width: 1024px) {
-  /* mobile menu  */
-  .nav-bar {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .menu-link {
-    background: #f1faee !important;
-    z-index: 999;
+
+/* media  */
+@media only screen and (max-width: 1024px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #f1faee;
     width: 100%;
-  }
-  .menu-item {
-    display: block;
+    /* height: 100vh; */
+    border-radius: 10px;
     text-align: center;
-    margin-bottom: 10px;
-    z-index: 999 !important;
-  }
-  .book-btn {
-    display: none;
-  }
-  .mobile-menu-check,
-  .mobile-menu-icon {
-    display: block;
-  }
-
-  .mobile-menu-icon {
-    color: #00928d;
-    font-size: 30px;
-    display: block;
-    position: absolute;
-    top: 2px;
-    left: 70%;
-    pointer-events: none;
-  }
-  .menu {
-    position: relative;
-  }
-  .mobile-menu-check {
-    width: 30px;
-    height: 30px;
-    opacity: 0;
-    cursor: pointer;
-    background: #000;
-    position: absolute;
-    left: 70%;
-    top: 7px;
-  }
-
-  .menu .mobile-menu-check:checked ~ .menu-link {
-    /* position: absolute; */
-    opacity: 1;
-    visibility: visible;
-    height: 25%;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px #0000000d;
     z-index: 999;
-    margin-top: 40px;
-    margin-left: 24px;
+    padding: 20px 0;
   }
 
-  .menu .menu-link {
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .menu-item {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  /* // Inside the Media Query. */
+
+  .hamburger.active .bar:nth-child(2) {
     opacity: 0;
-    visibility: hidden;
-    height: 0;
-    width: 200px;
-    position: relative;
-    top: 20px;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
   }
 
   .subscirbe .search-btn {
@@ -84,22 +60,7 @@
   }
 }
 
-/* @media screen and (max-width: 824px) {
-  .mobile-menu-icon {
-    left: 70%;
-  }
-  .mobile-menu-check {
-    left: 65%;
-  }
-} */
-
 @media screen and (max-width: 768px) {
-  /* .mobile-menu-icon {
-    left: 70%;
-  }
-  .mobile-menu-check {
-    left: 50%;
-  } */
   .section-title {
     font-size: 30px;
   }
