@@ -61,6 +61,19 @@
 }
 
 @media screen and (max-width: 768px) {
+  .ranking-info{
+    padding-top: 50px;
+  }
+  .ranking-card {
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 60%;
+    margin: auto;
+  }
+  .choose-sec {
+    flex-direction: column-reverse;
+  }
   .section-title {
     font-size: 30px;
   }
@@ -81,15 +94,13 @@
 /* Media Query */
 @media only screen and (max-width: 600px) {
   .ranking-card {
-    margin-top: 15px;
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-  .choose-sec {
-    flex-direction: column-reverse;
+    width: 100%;
   }
   .choose-info {
     flex-direction: column;
+  }
+  .choose-info-text{
+    text-align: center;
   }
 }
 
