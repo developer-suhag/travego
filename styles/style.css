@@ -351,6 +351,7 @@ li {
   display: inline-block;
   font-size: 18px;
   font-weight: 500;
+  font-style: italic;
 }
 .social-icons a {
   display: inline-block;
