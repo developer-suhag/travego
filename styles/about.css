@@ -1,5 +1,14 @@
 .about-hero-section {
-  background: url(../images/jungle.jpg) center center no-repeat;
+  background: url(../images/about-page-img/jungle.jpg) center center no-repeat;
   background-size: cover;
-  /* padding: 200px 0; */
+  background-repeat: no-repeat;
+}
+.about-title {
+  color: #0a0951;
+  font-size: 60px;
+  line-height: 1.1em;
+  font-weight: 700;
+}
+.hero-img img{
+  width: 50%;
 }
