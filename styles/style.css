@@ -406,3 +406,9 @@ li {
 }
 
 /* Choose Us End */
+
+/* call to action  */
+.cta-section {
+  background: url(../images/cta.jpg) no-repeat center center;
+  background-size: cover;
+}

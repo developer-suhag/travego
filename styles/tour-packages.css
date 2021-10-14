@@ -6,6 +6,14 @@
 .tour-packages-section .section-title {
   font-size: 30px;
 }
-
-.tour-card {
+/* tour card  */
+.card-top {
+  overflow: hidden;
+}
+.tour-card img {
+  transform: scale(1);
+  transition: 0.5s;
+}
+.tour-card img:hover {
+  transform: scale(1.2) rotate(1deg);
 }

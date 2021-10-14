@@ -37,7 +37,9 @@ const showTourOnUi = (tours) => {
     card.innerHTML = `
         <div class="p-4 h-full">
             <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                  <img class="lg:h-60 md:h-36 w-full object-cover object-center" src=${img} alt=${tour_title}>
+                 <div class="card-top">
+                    <img class="lg:h-60 md:h-36 w-full object-cover object-center" src=${img} alt=${tour_title}>
+                 </div>
                 <div class="p-6">
                       <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
                       <h1 class="title-font text-lg  font-bold text-gray-900 mb-3">${tour_title}</h1>
