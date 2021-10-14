@@ -61,7 +61,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .ranking-info{
+  .ranking-info {
     padding-top: 50px;
   }
   .ranking-card {
@@ -99,13 +99,16 @@
   .choose-info {
     flex-direction: column;
   }
-  .choose-info-text{
+  .choose-info-text {
     text-align: center;
   }
 }
 
 @media screen and (max-width: 400px) {
   .section-title {
+    font-size: 20px;
+  }
+  .tour-packages-section .section-title {
     font-size: 20px;
   }
   .search-btn {

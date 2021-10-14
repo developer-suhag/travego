@@ -1,1 +1,11 @@
+/* tour hero section  */
+.tour-hero-section {
+  background: #f1faee;
+}
+/* tour-packages-section */
+.tour-packages-section .section-title {
+  font-size: 30px;
+}
 
+.tour-card {
+}
