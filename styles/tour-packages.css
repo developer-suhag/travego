@@ -17,3 +17,12 @@
 .tour-card img:hover {
   transform: scale(1.2) rotate(1deg);
 }
+.tour-card .badge {
+  background: #e63946;
+  color: #fff;
+  border-radius: 5px;
+  width: 90px;
+  text-align: center;
+  position: relative;
+  top: -38px;
+}

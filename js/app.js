@@ -22,7 +22,6 @@ const loadData = () => {
     .then((res) => res.json())
     .then((data) => showTourOnUi(data));
 };
-loadData();
 
 // tour packages
 
@@ -30,7 +29,7 @@ const showTourOnUi = (tours) => {
   const tourContainer = document.getElementById("all-packages-container");
 
   tours.forEach((tour) => {
-    const { tour_title, price, img, country, description, rating, badge } =
+    const { id, tour_title, price, img, country, description, rating, badge } =
       tour;
     const card = document.createElement("div");
     card.classList.add("tour-card");
@@ -41,19 +40,19 @@ const showTourOnUi = (tours) => {
                     <img class="lg:h-60 md:h-36 w-full object-cover object-center" src=${img} alt=${tour_title}>
                  </div>
                 <div class="p-6">
-                      <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+                      <h4 class="badge">${badge}</h4>
                       <h1 class="title-font text-lg  font-bold text-gray-900 mb-3">${tour_title}</h1>
                       <p class="leading-relaxed mb-3">${description.slice(
                         0,
                         100
                       )}</p>
                     <div class="flex items-center flex-wrap ">
-                          <a class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+                          <button class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Details
                             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                               <path d="M5 12h14"></path>
                               <path d="M12 5l7 7-7 7"></path>
                             </svg>
-                          </a>
+                          </button>
                           <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 b     order-r-2 border-gray-200">
                             <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                               <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
@@ -74,3 +73,38 @@ const showTourOnUi = (tours) => {
     tourContainer.appendChild(card);
   });
 };
+
+// const tourDetials = () => {
+
+// };
+// tourDetials();
+
+// tour deaitls
+
+// const loadTourDeails = (id) => {
+//   const newTour = [];
+//   fetch("../tours.json")
+//     .then((res) => res.json())
+//     .then((data) => {
+//       for (const tour of data) {
+//         if (tour.id === id) {
+//           newTour.push(tour);
+//         }
+//       }
+//     });
+//   showDetialsOnUi(newTour);
+// };
+
+// const showDetialsOnUi = (tour) => {
+//   location.href = "./tour-details.html";
+//   const tourDetailsContainer = document.getElementById("tour-detials");
+//   console.log(tourDetailsContainer);
+//   const tourHero = document.createElement("div");
+//   tourHero.classList.add("tour-details-hero");
+//   tourHero.innerHTML = `
+//     <h3>asdlfasdlkf asdlkf asdlf alsdfjasdlkf saldkf</h3>
+//   `;
+//   tourDetailsContainer.appendChild(tourHero);
+//   console.log(tour);
+// };
+loadData();
