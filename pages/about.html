@@ -19,6 +19,8 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+    <!-- Animate CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- local style sheet  -->
     <link rel="stylesheet" href="../styles/style.css" />
     <link rel="stylesheet" href="../styles/about.css">
@@ -68,25 +70,56 @@
         <!-- hero section start  -->
         <section class="relative pt-6">
           <div class=" about-hero-section">
-            <!-- <div class="container py-8 lg:py-44 lg:mb-8 mx-auto"> -->
             <div class="container lg:mb-8 mt-12 mx-auto pt-8 px-4 md:px-24">
-              <!-- <div class="grid gap-14 grid-cols-1  lg:grid-cols-2 w-11/12"> -->
-              <div class="gap-14 grid grid-cols-1 items-center lg:grid-cols-2">
-                <div class="text-center lg:text-left">
-                  <h1 class="text-white about-title">About Us</h1>
-                  <p class="text-sm">We’re Travego Agency</p>
+              <div class="gap-14 grid grid-cols-1 items-center md:grid-cols-2">
+                <div class="text-center md:text-left animate__animated animate__backInLeft animate__delay-1s">
+                  <h1 class="about-title">About Us</h1>
+                  <p>We’re Travego Agency</p>
                 </div>
                 <div class="flex hero-img justify-center">
-                  <img src="../images/about-page-img/hero-girl.png" alt="girl">
+                  <img src="../images/about-page-img/hero-girl.png" class="animate__animated animate__backInRight" alt="girl">
                 </div>
               </div>
             </div>
           </div>
         </section>
-        <!-- hero sectio end  -->
+        <!-- hero section end  -->
       </header>
       <!-- header end  -->
-      <main></main>
+      <main>
+        <!-- Progress Bar section Start  -->
+        <section class="container px-4 lg:px-24 mx-auto py-12 md:py-24">
+          <div class="gap-4 md:gap-16 grid grid-cols-1 items-center md:grid-cols-2">
+            <div class="progresses">
+              <div class="progress">
+              </div>
+            </div>
+            <div class="text-center lg:text-left">
+              <div class="weekend-text">
+                <h2 class="section-title pb-6">Continuity Of Quality</h2>
+              </div>
+              <p class="text-gray-400">We commit to our social responsibility and search continuously for ways to improve quality and sustainability in our business and in our travel products. We therefore establish the respective regulations and responsibilities in our company. Sustainable travel is the top priority for us, travelling in a way that minimises our negative impact on the planet.</p>
+            </div>
+          </div>
+        </section>
+        <!-- Progress Bar section end  -->
+
+        <!-- Team section Start  -->
+        <section class="Team-Members-sec">
+          <div class="container px-4 lg:px-24 mx-auto py-20">
+            <div class="weekend-text text-center">
+              <h2 class="section-title">Our Team Member</h2>
+            </div>
+            <div class="text-gray-600 body-font">
+              <div class="container px-5 py-12 mx-auto">
+                <div class="flex flex-wrap -m-4 justify-center" id="teams">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Team section end  -->
+      </main>
 
 
 
@@ -196,7 +229,9 @@
           </p>
         </section>
       </footer>
+
       <script src="../js/app.js"></script>
+      <script src="../js/about.js"></script>
 
   </body>
 </html>

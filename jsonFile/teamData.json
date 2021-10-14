@@ -1,0 +1,32 @@
+[
+    {
+        "img" : "https://i.ibb.co/XJ70Hq7/JEANETTE-KINGSTON.jpg",
+        "name" : "Jeanette Kingston",
+        "job" : "Chief Executive Officer"
+    },
+    {
+        "img" : "https://i.ibb.co/NsdfWwq/ALAN-COOPER.jpg",
+        "name" : "Alan Cooper",
+        "job" : "Vice President"
+    },
+    {
+        "img" : "https://i.ibb.co/gjCXMcz/personnel-6-400x363.jpg",
+        "name" : "Thuy John",
+        "job" : "Senior Engineer"
+    },
+    {
+        "img" : "https://i.ibb.co/DKWw0KK/Ricardo-Gomez.jpg",
+        "name" : "Ricardo Gomez",
+        "job" : "Senior Engineer"
+    },
+    {
+        "img" : "https://i.ibb.co/8Pn48sJ/JOHN-Smithy.jpg",
+        "name" : "John Smithy",
+        "job" : "Technology Officer"
+    },
+    {
+        "img" : "https://i.ibb.co/s1wwcG0/personnel-4-400x363.jpg",
+        "name" : "Fiona Herri",
+        "job" : "HR Manager"
+    }
+]

@@ -1,3 +1,4 @@
+/* hero section start */
 .about-hero-section {
   background: url(../images/about-page-img/jungle.jpg) center center no-repeat;
   background-size: cover;
@@ -12,3 +13,93 @@
 .hero-img img{
   width: 50%;
 }
+/* hero section end */
+
+/* Progress Bar section Start */
+.canditors{
+  position: relative;
+  margin-bottom: 15px;
+}
+.canditors .practical{
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+
+}
+.canditors .practical .progress-info{
+  position: relative;
+  color: #0a0951;
+}
+.canditors .practical .progress-info .progress-name{
+position: absolute;
+top:0;
+left:0;
+font-size: 15px;
+font-weight: 400;
+opacity: 0.9;
+}
+.canditors .practical .progress-info .percentage-num{
+  position: absolute;
+  top:0;
+  right: 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+.canditors .practical .progress-bar{
+  position: relative;
+  width: 100%;
+  height: 7px;
+  margin: 30px 0 2px;
+  border-radius: 10px;
+  background: rgba(75, 74, 74, 0.5);
+}
+.canditors .practical .progress-bar .percentagem{
+  position: absolute;
+  top:0;
+  left: 0;
+  height: 7px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /* opacity:0; */
+  background: #00928d;
+  transition: 1 ease 0.3s;
+  /* transition: 3s all; */
+  /* animation-name:animationProgress; */
+}
+/* @keyframes animationProgress{
+  from{
+    width:0;
+  }
+} */
+/* #play-animation{
+  animation :progress-animation 5s forwards;
+} */
+/* @keyframes progress-animation {
+  0%{width:0%;}
+  100%{width:100%;}
+} */
+/* Progress Bar section end */
+
+/* Team Member section Start */
+.Team-Members-sec{
+  background-color: #edf7f7;
+}
+.team-img{
+  transition: all ease 0.8s;
+}
+.team-img:hover{
+  transform: scale(1.05);
+  transition: all ease 0.8s;
+}
+.team-name{
+  font-size: 23px;
+  font-weight: 900;
+  color: #0a0951;
+}
+.team-job{
+  font-size: 19px;
+  color: gray;
+}
+/* Team Member section end */
