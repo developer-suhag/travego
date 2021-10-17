@@ -1,6 +1,10 @@
-.contact-email{
-    color: #00928d;
+.contact-hero-section {
+  background: #f1faee;
 }
-.contact-submit-btn{
-    background-color: #00928d;
+
+.contact-email {
+  color: #00928d;
+}
+.contact-submit-btn {
+  background-color: #00928d;
 }
